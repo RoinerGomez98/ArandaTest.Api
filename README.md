@@ -1,8 +1,8 @@
-# ArandaTest.Api 🧠
+# ArandaTest.Api 
 
 API REST desarrollada en .NET 9 con arquitectura limpia, Entity Framework Core y despliegue dockerizado. Incluye integración con SQL Server y ejecución automática de migraciones en entorno de desarrollo.
 
-## 🚀 Requisitos previos
+##  Requisitos previos
 
 - [Docker](https://www.docker.com/products/docker-desktop) instalado y corriendo (si se desea usar docker)
 - [Git](https://git-scm.com/downloads) instalado
@@ -10,7 +10,7 @@ API REST desarrollada en .NET 9 con arquitectura limpia, Entity Framework Core y
 
 ---
 
-## 📥 Clonar el repositorio
+## Clonar el repositorio
 
 => git clone https://github.com/RoinerGomez98/ArandaTest.Api.git
 UNA VEZ DESCARGADO EL PROYECTO =>
@@ -23,7 +23,7 @@ NOTA: SI NO TE DESCARGA LA CARPETA 'MIGRATIONS' en ArandaTest.Infrastructure eje
 SI DESEAS EJECUTAR EL DOCKER VE A LA CARPETA RAIZ DONDE SE ENCUENTRA EL 'docker-compose' EJECUTA EL COMANDO 
 => docker-compose up --build
 
-=======================SQL SERVER========================
+## =======================SQL SERVER========================
 Se crearon 3 tablas 
 Products => para el crud de productos
 Category => para las categorias de los productos tambien tiene su propio crud (aunque sin delete por seguridad)
@@ -31,7 +31,7 @@ Users => se creo un usuario por defecto para las pruebas de login y tokens e ini
 Mail => rstiven_98@hotmail.com
 Pass => 1023970895
 
-ESTRUCTURA DEL PROYECTO
+## ESTRUCTURA DEL PROYECTO
 <img width="561" height="710" alt="image" src="https://github.com/user-attachments/assets/b12ef7b1-69ac-43aa-a638-369934613152" />
 ArandaTest.Infrastructure => contiene el repositorio generico, el dbContext para EF , las inyecciones de dependencias para los servicios y las migracions EF
 ArandaTest.Domain => contiene las entidades de base de datos, la interfaz del repositorio generico y unas clases utiles para las respuestas al front y una clase para encriptar la contraseña al guardar el usuario y al consultarlo
