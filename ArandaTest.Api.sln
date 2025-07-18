@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArandaTest.Api", "ArandaTest.Api\ArandaTest.Api.csproj", "{CFF94B25-FD2C-4289-84C3-204FFDC10362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArandaTest.Domain", "ArandaTest.Domain\ArandaTest.Domain.csproj", "{5B522197-7BC4-4631-BD50-1B3BB345C980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArandaTest.Application", "ArandaTest.Application\ArandaTest.Application.csproj", "{5A00BC37-903D-4BF6-A6C2-2B97F628115F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArandaTest.Infrastructure", "ArandaTest.Infrastructure\ArandaTest.Infrastructure.csproj", "{8F418D34-04FF-4B3C-8EA0-5310AA3F647B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BD032AC8-C8A2-4D2C-94F0-9BC3598AE142}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFF94B25-FD2C-4289-84C3-204FFDC10362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF94B25-FD2C-4289-84C3-204FFDC10362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF94B25-FD2C-4289-84C3-204FFDC10362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF94B25-FD2C-4289-84C3-204FFDC10362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B522197-7BC4-4631-BD50-1B3BB345C980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B522197-7BC4-4631-BD50-1B3BB345C980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B522197-7BC4-4631-BD50-1B3BB345C980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B522197-7BC4-4631-BD50-1B3BB345C980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A00BC37-903D-4BF6-A6C2-2B97F628115F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A00BC37-903D-4BF6-A6C2-2B97F628115F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A00BC37-903D-4BF6-A6C2-2B97F628115F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A00BC37-903D-4BF6-A6C2-2B97F628115F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F418D34-04FF-4B3C-8EA0-5310AA3F647B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F418D34-04FF-4B3C-8EA0-5310AA3F647B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F418D34-04FF-4B3C-8EA0-5310AA3F647B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F418D34-04FF-4B3C-8EA0-5310AA3F647B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
